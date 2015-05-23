@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 @Configuration
-@Component
 public class ClientConfig {
 
     @Bean @Scope("prototype") public RestTemplate restTemplate() {
