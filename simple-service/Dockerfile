@@ -36,7 +36,7 @@ COPY target/simple-service-1.0-SNAPSHOT.war $CATALINA_HOME/webapps/simple-servic
 
 # Expose port to use
 EXPOSE 8080
-EXPOSE 8443
+           EXPOSE 8443
 
 # Default command to start
 CMD ["catalina.sh", "run"]
