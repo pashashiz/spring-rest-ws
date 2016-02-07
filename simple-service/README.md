@@ -1,6 +1,6 @@
 ### To build new docker image run:
 ```
-docker build -t simple-service ./docker
+docker build -t simple-service .
 ```
 
 ### To run docker container with default "docker-host" domain:
